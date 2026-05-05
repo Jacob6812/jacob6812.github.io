@@ -24,4 +24,3 @@
 - Benchmarked against domestic brands such as Haier and Midea to diagnose issues in pricing, channels, and local supply-chain adaptation
 - Designed the “SIEMENS Life+” sub-brand concept and a phased implementation roadmap
 
-> This section now works as a research-and-project archive, which fits your actual resume structure better than a traditional publications list.
