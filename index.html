@@ -1,204 +1,251 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="方杰的个人主页：展示教育背景、实习经历、研究项目与技能结构的中英双语赛博朋克作品集。" />
-    <meta name="author" content="方杰 Fang Jie" />
-    <meta name="keywords" content="方杰,Fang Jie,个人主页,portfolio,resume,研究,项目,经济学,数学,数据分析" />
-    <title>方杰｜个人主页</title>
-
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Silkscreen:wght@400;700&display=swap"
-        rel="stylesheet" />
-
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <script>
-        MathJax = {
-            tex: {
-                packages: {},
-                inlineMath: [
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,
-                processEnvironments: true,
-                processRefs: true,
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
-                tags: 'all',
-                tagSide: 'right',
-                tagIndent: '0.8em',
-                useLabelIds: true,
-                maxMacros: 10000,
-                maxBuffer: 5 * 1024,
-                formatError: (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script"
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-    <script type="text/javascript" src="static/js/scripts.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b5d">
+  <meta name="description" content="Jie Fang is an undergraduate in Mathematics and Economics at Renmin University of China. Research areas include NLP, machine learning, causal inference, and computational economics.">
+  <meta name="author" content="Jie Fang">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jie Fang | Economics, AI & Data Science">
+  <meta property="og:description" content="Undergraduate researcher in computational economics, natural language processing, machine learning, and causal inference.">
+  <meta property="og:url" content="https://jacob6812.github.io/">
+  <meta property="og:image" content="https://jacob6812.github.io/assets/img/profile.webp">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://jacob6812.github.io/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/img/profile.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <title>Jie Fang | Economics, AI & Data Science</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jie Fang",
+    "alternateName": "方杰",
+    "url": "https://jacob6812.github.io/",
+    "image": "https://jacob6812.github.io/assets/img/profile.webp",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Renmin University of China"
+    },
+    "sameAs": ["https://github.com/Jacob6812"],
+    "knowsAbout": [
+      "Computational Economics",
+      "Natural Language Processing",
+      "Causal Inference",
+      "Machine Learning"
+    ]
+  }
+  </script>
 </head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
 
-<body id="page-top">
-    <div class="page-ambient" aria-hidden="true"></div>
-    <div class="page-grid" aria-hidden="true"></div>
-    <div class="page-scanlines" aria-hidden="true"></div>
-
-    <nav class="header navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container px-4 px-lg-5 nav-shell">
-            <a id="page-top-title" class="navbar-brand brand-mark fw-bold" href="#page-top"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-0 me-lg-2 my-3 my-lg-0 nav-pills-shell">
-                    <li class="nav-item"><a class="nav-link me-lg-2" href="#home" id="nav-home"></a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-2" href="#awards" id="nav-awards"></a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-2" href="#experience" id="nav-experience"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#publications" id="nav-publications"></a></li>
-                </ul>
-            </div>
-        </div>
+  <header class="masthead">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="wordmark" href="#about" aria-label="Jie Fang, home">JF<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="site-menu" id="site-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#honors">Honors</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <header class="top-section hero-section">
-        <div class="hero-overlay"></div>
-        <div class="hero-stars" aria-hidden="true"></div>
-        <div class="hero-moon" aria-hidden="true"></div>
-        <div class="hero-city city-back" aria-hidden="true"></div>
-        <div class="hero-city city-mid" aria-hidden="true"></div>
-        <div class="hero-city city-front" aria-hidden="true"></div>
-        <div class="container px-4 px-lg-5 hero-shell">
-            <div class="hero-copy hero-copy-minimal">
-                <div class="hero-toolbar hero-toolbar-minimal">
-                    <div class="lang-switch" aria-label="Bilingual language toggle">
-                        <button type="button" class="lang-option lang-option-active" id="lang-zh" aria-pressed="true">中</button>
-                        <span class="lang-divider"></span>
-                        <button type="button" class="lang-option" id="lang-en" aria-pressed="false">EN</button>
-                    </div>
-                </div>
-                <h1 id="top-section-bg-text" class="hero-title"></h1>
-                <div class="hero-actions hero-actions-minimal">
-                    <a class="hero-button hero-button-primary" href="#home"><span id="hero-button-primary-text"></span></a>
-                    <a class="hero-button hero-button-secondary" href="#publications"><span id="hero-button-secondary-text"></span></a>
-                </div>
-            </div>
-            <div class="hero-side hero-side-minimal">
-                <div class="avatar-frame" id="avatar">
-                    <div class="avatar-glow"></div>
-                    <div class="avatar-noise"></div>
-                    <img src="static/assets/img/photo.png" alt="Profile photo" />
-                    <div class="avatar-badge avatar-badge-bottom" id="avatar-badge-bottom"></div>
-                </div>
-            </div>
+  <main class="site-shell" id="main-content">
+    <aside class="profile" aria-label="Profile">
+      <img class="profile-photo" src="assets/img/profile.webp" width="720" height="720" alt="Portrait of Jie Fang">
+      <div class="profile-heading">
+        <h2>Jie Fang <span>方杰</span></h2>
+        <p>Undergraduate Researcher</p>
+      </div>
+
+      <dl class="profile-facts">
+        <div>
+          <dt>Affiliation</dt>
+          <dd>Renmin University of China</dd>
         </div>
-    </header>
-
-    <main class="main-stage">
-        <section class="content-section" id="home">
-            <div class="container px-4 px-lg-5">
-                <div class="section-panel section-panel-primary">
-                    <header class="panel-header">
-                        <div>
-                            <p class="panel-index" id="home-panel-index"></p>
-                            <h2 id="home-subtitle"></h2>
-                        </div>
-                        <div class="panel-corner-tag" id="home-panel-tag"></div>
-                    </header>
-                    <div class="panel-body">
-                        <div class="main-body" id="home-md"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="content-section" id="awards">
-            <div class="container px-4 px-lg-5">
-                <div class="section-panel section-panel-magenta">
-                    <header class="panel-header">
-                        <div>
-                            <p class="panel-index" id="awards-panel-index"></p>
-                            <h2><i class="bi bi-award-fill"></i><span id="awards-subtitle"></span></h2>
-                        </div>
-                        <div class="panel-corner-tag" id="awards-panel-tag"></div>
-                    </header>
-                    <div class="panel-body">
-                        <div class="main-body" id="awards-md"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="content-section" id="experience">
-            <div class="container px-4 px-lg-5">
-                <div class="section-panel section-panel-cyan">
-                    <header class="panel-header">
-                        <div>
-                            <p class="panel-index" id="experience-panel-index"></p>
-                            <h2><i class="bi bi-briefcase-fill"></i><span id="experience-subtitle"></span></h2>
-                        </div>
-                        <div class="panel-corner-tag" id="experience-panel-tag"></div>
-                    </header>
-                    <div class="panel-body">
-                        <div class="main-body" id="experience-md"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="content-section" id="publications">
-            <div class="container px-4 px-lg-5">
-                <div class="section-panel section-panel-violet">
-                    <header class="panel-header">
-                        <div>
-                            <p class="panel-index" id="publications-panel-index"></p>
-                            <h2><i class="bi bi-file-text-fill"></i><span id="publications-subtitle"></span></h2>
-                        </div>
-                        <div class="panel-corner-tag" id="publications-panel-tag"></div>
-                    </header>
-                    <div class="panel-body">
-                        <div class="main-body" id="publications-md"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-4 px-lg-5 footer-shell">
-            <div class="footer-label" id="footer-label"></div>
-            <div class="text-white-50 small footer-meta">
-                <div id="copyright-text" class="mb-2"></div>
-                <div class="footer-links">
-                    <a id="github-link" href="https://github.com/jacob6812">GitHub</a>
-                    <span class="mx-1">&middot;</span>
-                    <a id="license-link" href="https://github.com/jacob6812/jacob6812.github.io/blob/main/LICENSE">License</a>
-                </div>
-            </div>
+        <div>
+          <dt>Program</dt>
+          <dd>Mathematics &amp; Economics</dd>
         </div>
-    </footer>
+        <div>
+          <dt>Location</dt>
+          <dd>Beijing, China</dd>
+        </div>
+      </dl>
+
+      <div class="profile-links" aria-label="Contact links">
+        <a href="mailto:17759570787@163.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm9 7 7-5H5l7 5Zm0 2.5L5 9.6V17h14V9.6l-7 4.9Z"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/Jacob6812" target="_blank" rel="noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.88c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.57 9.57 0 0 1 12 6.82a9.5 9.5 0 0 1 2.5.34c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+          GitHub
+        </a>
+      </div>
+
+    </aside>
+
+    <article class="content">
+      <section class="intro section" id="about">
+        <p class="eyebrow">Economics &middot; Artificial Intelligence &middot; Data Science</p>
+        <h1>Jie Fang <span class="chinese-name">方杰</span></h1>
+        <p class="lead">Undergraduate researcher in computational economics, natural language processing, machine learning, and causal inference.</p>
+        <div class="intro-copy">
+          <p><strong>Renmin University of China</strong> &middot; Mathematics-Economics Dual Bachelor's Program &middot; Bachelor of Science and Bachelor of Economics &middot; 2024-Present.</p>
+          <p>Research topics: corporate decision-making, geopolitical risk, innovation, supply chains, and capital structure.</p>
+        </div>
+
+        <div class="academic-snapshot" aria-label="Academic snapshot">
+          <div><strong>3.96 / 4.00</strong><span>GPA</span></div>
+          <div><strong>1 / 19</strong><span>Class rank</span></div>
+          <div><strong>2024 - Present</strong><span>RUC</span></div>
+        </div>
+
+        <div class="interests">
+          <h2>Research Areas</h2>
+          <ol>
+            <li><span>01</span>Computational Economics</li>
+            <li><span>02</span>AI for Social Science</li>
+            <li><span>03</span>Natural Language Processing</li>
+            <li><span>04</span>Causal Inference</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="section-heading">
+          <p>Projects and papers</p>
+          <h2>Research</h2>
+        </div>
+
+        <article class="research-item">
+          <div class="research-meta">
+            <span>2025 - 2026</span>
+            <span>Research Assistant</span>
+          </div>
+          <div class="research-body">
+            <h3>Firms' Leverage Targets</h3>
+            <p class="research-context">Renmin University of China &amp; MIT Sloan collaboration &middot; Working paper</p>
+            <p>Built a two-stage extraction system combining rule-based retrieval with LLM semantic analysis to identify quantitative leverage targets, motivations, and adjustment behavior from more than 16 GB of earnings-call transcripts and 26,000 SEC 10-K filings.</p>
+            <ul>
+              <li>Constructed a new dataset of 9,384 explicit leverage targets across 1,350 firms, covering 43% of total U.S. corporate debt.</li>
+              <li>Developed Lasso and Elastic Net models for out-of-sample target prediction across 473,000 firm-quarter observations.</li>
+              <li>Implemented concurrent API workers, retry logic, checkpoints, and cross-model consistency checks for large-scale processing.</li>
+            </ul>
+            <div class="method-line"><span>NLP</span><span>LLMs</span><span>Machine Learning</span><span>Data Engineering</span></div>
+          </div>
+        </article>
+
+        <article class="research-item">
+          <div class="research-meta">
+            <span>2025</span>
+            <span>Independent Paper</span>
+          </div>
+          <div class="research-body">
+            <h3>Geopolitical Risk Perception and Chinese Firms' Dual Response</h3>
+            <p class="research-context">Innovation response and supply-chain buffering using firm-level data</p>
+            <p>Measured firm-level geopolitical risk perception from 2016-2024 A-share manufacturing annual reports and studied how perceived exposure shaped R&amp;D and precautionary inventory after the 2021 USICA shock.</p>
+            <ul>
+              <li>Created a firm-level text measure from MD&amp;A disclosures using text embeddings and an 84-term localized dictionary.</li>
+              <li>Used a continuous difference-in-differences design with parallel-trend, placebo, exclusion, threshold, and keyword-sensitivity tests.</li>
+              <li>Selected for the 8th National Development Youth Forum and the 12th National Undergraduate Economics Forum.</li>
+            </ul>
+            <div class="method-line"><span>Text Analysis</span><span>Difference-in-Differences</span><span>Firm Behavior</span></div>
+          </div>
+        </article>
+
+        <article class="research-item">
+          <div class="research-meta">
+            <span>2025</span>
+            <span>Policy Research</span>
+          </div>
+          <div class="research-body">
+            <h3>Strategic Allocation of State Capital</h3>
+            <p class="research-context">Research report for the National Development and Reform Commission</p>
+            <p>Designed an industry-classification framework linking strategic policy priorities to national economic sectors, then evaluated state-capital concentration using registration records for approximately 700,000 state-owned enterprises.</p>
+            <div class="method-line"><span>Industrial Organization</span><span>Policy Analysis</span><span>Large-scale Data</span></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-heading">
+          <p>Academic background</p>
+          <h2>Education</h2>
+        </div>
+        <div class="education-entry">
+          <div class="education-year">2024 - Present</div>
+          <div>
+            <h3>Renmin University of China</h3>
+            <p class="degree">Dual Bachelor's Program in Mathematics and Economics</p>
+            <p>Bachelor of Science and Bachelor of Economics &middot; GPA 3.96/4.00 &middot; Rank 1/19</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="honors">
+        <div class="section-heading">
+          <p>Recognition</p>
+          <h2>Honors</h2>
+        </div>
+        <ol class="honor-list">
+          <li>
+            <span class="honor-year">2026</span>
+            <div><strong>COMAP Mathematical Contest in Modeling, Finalist</strong></div>
+          </li>
+          <li>
+            <span class="honor-year">2025</span>
+            <div><strong>Chinese Mathematics Competition, National Second Prize</strong></div>
+          </li>
+          <li>
+            <span class="honor-year">RUC</span>
+            <div><strong>Academic Excellence Special Scholarship (ICBC Rongchuang Scholarship)</strong></div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p>Research toolkit</p>
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div>
+            <h3>Programming</h3>
+            <p>Python, C, C++</p>
+          </div>
+          <div>
+            <h3>Methods</h3>
+            <p>Difference-in-differences, PSM-DID, synthetic control, regularized regression, cross-validation</p>
+          </div>
+          <div>
+            <h3>Language &amp; Data</h3>
+            <p>Text measurement, LLM-assisted extraction, financial filings, CSMAR, Wind</p>
+          </div>
+          <div>
+            <h3>Engineering</h3>
+            <p>Concurrent pipelines, API orchestration, checkpointing, reproducible data processing</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>© <span id="current-year">2026</span> Jie Fang.</p>
+        <a href="#about">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </article>
+  </main>
+
+  <script src="assets/js/site.js"></script>
 </body>
-
 </html>
